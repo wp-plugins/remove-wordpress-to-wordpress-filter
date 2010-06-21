@@ -3,7 +3,7 @@ Contributors: tomthewebmaster
 Tags: filter, filters, WordPress, Wordpress
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.0
+Stable tag: trunk
 
 In WordPress 3.0, a default filter changes all instances of "Wordpress" in posts, titles, and comments to "WordPress". This turns the filter off.
 
