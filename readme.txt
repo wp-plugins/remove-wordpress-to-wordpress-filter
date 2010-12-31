@@ -5,7 +5,7 @@ Requires at least: 3.0
 Tested up to: 3.0.4
 Stable tag: trunk
 
-In WordPress 3.0 and later, a default filter changes all instances of "Wordpress" in posts, titles, and comments to "WordPress". This turns the filter off.
+In WordPress 3.0 and later, a default filter changes all instances of "Wordpress" to "WordPress". This turns the filter off.
 
 == Description ==
 
