@@ -2,7 +2,7 @@
 /*
 Plugin Name: Remove Wordpress to WordPress filter
 Plugin URI: http://tomlany.net/2010/05/wordpress-to-wordpress/
-Description: In WordPress 3.0 and later, a filter changes all instances of "Wordpress" to "WordPress". This turns the filter off.
+Description: This plugin turns off the default filter changes all instances of "Wordpress" to "WordPress".
 Version: 1.1
 Author: Tom Lany
 Author URI: http://tomlany.net/

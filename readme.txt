@@ -5,7 +5,7 @@ Requires at least: 3.0
 Tested up to: 3.0.4
 Stable tag: trunk
 
-In WordPress 3.0 and later, a default filter changes all instances of "Wordpress" to "WordPress". This turns the filter off.
+This plugin turns off the default filter changes all instances of "Wordpress" to "WordPress".
 
 == Description ==
 
