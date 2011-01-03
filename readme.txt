@@ -36,6 +36,7 @@ The filter is defined in <a href="http://core.trac.wordpress.org/browser/trunk/w
 The remove_filter function is used in this plugin to undo the add_filter function applied in wp-includes/formatting.php. In versions 1.0 and 1.1 of this plugin, the function was removed for certain priority levels. As of version 1.2, this plugin removes the filter for all possible priority levels. Thanks to <a href="http://subscribe2.wordpress.com/">Matt Robinson</a> for suggesting this method and providing code that is used in the plugin. 
 
 For more information regarding how this function is applied in WordPress, the following are the relevant changesets to the core WordPress code regarding this function.
+
 * <a href="http://core.trac.wordpress.org/changeset/14996/">Changes made for WordPress 3.0</a>
 * <a href="http://core.trac.wordpress.org/changeset/15377/">Changes made for WordPress 3.0.1</a>
 * <a href="http://core.trac.wordpress.org/changeset/14996/">Changes made for WordPress 3.1</a>
