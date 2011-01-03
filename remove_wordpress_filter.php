@@ -3,20 +3,19 @@
 Plugin Name: Remove Wordpress to WordPress filter
 Plugin URI: http://tomlany.net/2010/05/wordpress-to-wordpress/
 Description: This turns off the default filter that changes all instances of "Wordpress" to "WordPress".
-Version: 1.1
+Version: 1.2
 Author: Tom Lany
 Author URI: http://tomlany.net/
 License: GPL
 */
 
-// For WordPress 3.0
-remove_filter('the_content','capital_P_dangit');
-remove_filter('the_title','capital_P_dangit');
-remove_filter('comment_text','capital_P_dangit');
+/* For more information about this plugin, see the readme.txt file included with the download package. */
 
-// For WordPress 3.0.1 and later
-remove_filter('the_content','capital_P_dangit',11);
-remove_filter('the_title','capital_P_dangit',11);
-remove_filter('comment_text','capital_P_dangit',11);
+foreach ( array('the_content', 'the_title', 'comment_text') as $filter ) {
+	$priority = has_filter($filter, 'capital_P_dangit');
+	if ( $priority !== false ) {
+		remove_filter($filter, 'capital_P_dangit', $priority);
+	} // close if ( $priority !== false ) {
+} // close foreach ( array('the_content', 'the_title', 'comment_text') as $filter ) {
 
 ?>
