@@ -22,7 +22,7 @@ If you have any problems or questions, feel free to <a href="http://tomlany.net/
 * Additional technical documentation has been added.
 
 = Version 1.1 =
-* The filters were changed slightly in WordPress 3.0.1. This update is compatible with these new filters.
+* The filters were changed slightly in WordPress 3.0.1. This update is compatible with these new filters. a
 
 = Version 1.0 =
 * Initial release
