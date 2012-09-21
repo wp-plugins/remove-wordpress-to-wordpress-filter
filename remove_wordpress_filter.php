@@ -6,7 +6,7 @@ Description: This turns off the default filter that changes all instances of "Wo
 Version: 1.2
 Author: Tom Lany
 Author URI: http://tomlany.net/
-License: GPL
+License: GPLv2 or later
 */
 
 /* For more information about this plugin, see the readme.txt file included with the download package. */
