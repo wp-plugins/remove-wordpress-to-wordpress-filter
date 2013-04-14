@@ -2,7 +2,7 @@
 Contributors: tomthewebmaster
 Tags: filter, filters, WordPress, Wordpress
 Requires at least: 3.0
-Tested up to: 3.5
+Tested up to: 3.6
 Stable tag: trunk
 
 This turns off the default filter that changes all instances of "Wordpress" to "WordPress".
