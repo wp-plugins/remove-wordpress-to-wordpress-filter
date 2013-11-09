@@ -11,11 +11,11 @@ License: GPLv2 or later
 
 /* For more information about this plugin, see the readme.txt file included with the download package. */
 
-foreach ( array('the_content', 'the_title', 'comment_text') as $filter ) {
-	$priority = has_filter($filter, 'capital_P_dangit');
-	if ( $priority !== false ) {
-		remove_filter($filter, 'capital_P_dangit', $priority);
-	} // close if ( $priority !== false ) {
-} // close foreach ( array('the_content', 'the_title', 'comment_text') as $filter ) {
+foreach ( array( 'the_content', 'the_title', 'wp_title', 'comment_text' ) as $filter ) {
+	$priority = has_filter( $filter, 'capital_P_dangit' );
+	if ( $priority !== FALSE ) {
+		remove_filter( $filter, 'capital_P_dangit', $priority );
+	}
+}
 
 ?>

@@ -2,7 +2,7 @@
 Contributors: tomthewebmaster
 Tags: filter, filters, WordPress, Wordpress
 Requires at least: 3.0
-Tested up to: 3.6
+Tested up to: 3.7
 Stable tag: trunk
 
 This turns off the default filter that changes all instances of "Wordpress" to "WordPress".
@@ -16,6 +16,10 @@ Simply upload the plugin files to your WordPress plugins folder, activate it on 
 If you have any problems or questions, feel free to <a href="http://tomlany.net/2010/05/wordpress-to-wordpress/">leave a comment on my website</a>, and I will respond as I have time.
 
 == Changelog ==
+
+= Version 1.3 =
+* Turn filter off for wp_title.
+* Minor code cleanup.
 
 = Version 1.2 =
 * Some priority levels for this function have changed yet again in WordPress 3.1, making it again necessary to change the filters. This plugin now removes the filter for all possible priority levels. Thanks to <a href="http://subscribe2.wordpress.com/">Matt Robinson</a> for suggesting this method and providing code that is used in the plugin. This change makes the plugin compatible with WordPress 3.1, and it is still compatible with the WordPress 3.0 branch.
