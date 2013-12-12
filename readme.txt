@@ -2,7 +2,7 @@
 Contributors: tomthewebmaster
 Tags: filter, filters, WordPress, Wordpress
 Requires at least: 3.0
-Tested up to: 3.7
+Tested up to: 3.8
 Stable tag: trunk
 
 This turns off the default filter that changes all instances of "Wordpress" to "WordPress".
@@ -35,7 +35,7 @@ If you have any problems or questions, feel free to <a href="http://tomlany.net/
 
 This plugin seeks to disable the capital_P_dangit function, which is the WordPress function that disallows "Wordpress" to be used on blogs.
 
-The filter is defined in <a href="http://core.trac.wordpress.org/browser/trunk/wp-includes/default-filters.php">wp-includes/default-filters.php</a> and is applied in <a href="http://core.trac.wordpress.org/browser/trunk/wp-includes/formatting.php">wp-includes/formatting.php</a> of the core WordPress code.
+The filter is defined in <a href="http://core.trac.wordpress.org/browser/trunk/src/wp-includes/default-filters.php">wp-includes/default-filters.php</a> and is applied in <a href="http://core.trac.wordpress.org/browser/trunk/src/wp-includes/formatting.php">wp-includes/formatting.php</a> of the core WordPress code.
 
 The remove_filter function is used in this plugin to undo the add_filter function applied in wp-includes/formatting.php. In versions 1.0 and 1.1 of this plugin, the function was removed for certain priority levels. As of version 1.2, this plugin removes the filter for all possible priority levels. Thanks to <a href="http://subscribe2.wordpress.com/">Matt Robinson</a> for suggesting this method and providing code that is used in the plugin. 
 
